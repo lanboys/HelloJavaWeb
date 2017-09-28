@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="servlet-api">
+  <library name="catalina">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/HelloServlet/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HelloServlet/lib/catalina.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
