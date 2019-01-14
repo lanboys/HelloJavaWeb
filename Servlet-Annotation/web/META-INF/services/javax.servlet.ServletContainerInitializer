@@ -1,0 +1,8 @@
+com.bing.lan.MyServletContainerInitializer
+
+#https://www.cnblogs.com/panxuejun/p/7090919.html
+#到org.springframework.web-3.0.1.RELEASE.jar中能找到META-INF/services下的
+#javax.servlet.ServletContainerInitializer文件，内容为org.springframework.web.SpringServletContainerInitializer同样，
+#我们专门作这样一个包，在mkdir好的META-INF/services下vi 一个文件命名为
+#javax.servlet.ServletContainerInitializer，内容为  com.bing.lan.MyServletContainerInitializer 。
+#然后在META-INF的parent路径下运行 jar cvf test.jar META-INF。一切完毕，将其放到WEB-INF/lib下。启动

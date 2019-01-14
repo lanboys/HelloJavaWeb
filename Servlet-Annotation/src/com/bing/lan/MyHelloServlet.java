@@ -4,14 +4,11 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Enumeration;
 
-import javax.servlet.annotation.WebInitParam;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebServlet(value = "/myHello", initParams = {@WebInitParam(name = "characterEncoding", value = "UTF-8")})
 public class MyHelloServlet extends HttpServlet {
 
     @Override

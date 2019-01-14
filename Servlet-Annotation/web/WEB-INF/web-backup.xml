@@ -10,4 +10,16 @@
     <!--同一个servlet 可以在xml和注解中同时配置，但是path不能一样，否则部署时报错，-->
     <!--如果同时配置两个path不一样的servlet，实际上是有两个不一样的servlet实例-->
 
+    <!--https://blog.csdn.net/lemisky/article/details/78250830-->
+
+    <!--
+
+    Servlet 3.0开始 不需要web.xml 文件也可以, tomcat ContextConfig.webConfig()方法 做的就是 合并web.xml,
+    ServletContainerInitializer, web-fragment.xml;
+
+     没有web.xml文件, 不影响注解的作用
+
+
+     -->
+
 </web-app>
