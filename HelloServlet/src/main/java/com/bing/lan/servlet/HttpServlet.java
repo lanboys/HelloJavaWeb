@@ -1,4 +1,4 @@
-package com.bing.lan;
+package com.bing.lan.servlet;
 
 import java.io.IOException;
 
